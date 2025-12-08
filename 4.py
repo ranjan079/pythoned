@@ -124,5 +124,5 @@
 a=input("Enter the sentence or string:::")
 print(a[::2])#[start:stop:step]
 print(a[1::2])
-# print(a[::-1])
-# print(a[::-2])
+print(a[::-1])
+print(a[::-2])
