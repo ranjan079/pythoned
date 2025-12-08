@@ -52,13 +52,28 @@
 # (remove duplicates)
 # Print the unique list
 
-p=int(input("Enter up to value:::"))
-n=[int(input("Enter:")) for _ in range(p)]
-c=[]
-for i in n:
-    if i not in c:
-        c.append(i)
-print(c)
+# p=int(input("Enter up to value:::"))
+# n=[int(input("Enter:")) for _ in range(p)]
+# c=[]
+# for i in n:
+#     if i not in c:
+#         c.append(i)
+# print(c)
         
+# Write a Python program that:
+# Takes n numbers from the user
+# Stores them in a list
+# Counts how many times each number appears
+# Print number along with its frequency
 
-        
+p=int(input("Enter up to value:::"))
+n=[int(input("Enter:")) for _ in range(p)]  
+c={}
+for i in n:
+    if i in c:
+        c[i] +=1
+    else:
+        c[i]=1
+print(c)
+for i in c:
+    print("the number",i,"occours",c[i],"times")
