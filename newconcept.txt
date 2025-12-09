@@ -1,0 +1,19 @@
+1)char.isalpha()= only select letter 
+2)model of dictionary ::: {key:value, key:value}
+  eg:
+  {"name":["ranjan","ram"],"age":[11,12]}
+3)[start:stop:step] 
+ for reverse [::-1]
+ 4)import statistics as st
+  print(st.mean(...))
+5) statistics,panda,numpy(numerical python)
+->statistics=used for simple mathemitical calculation (calculator)
+->numpy= used for large data , used in array,matrix,vector (scientific calculator)
+->panda=used in tables (row and columns),used to read data from csv,sql,excel (Excel)
+6) list comprehension 
+format->[a**2 for a in r if a>0]
+format->[R for ..... X if ....Z]
+R=what ans we want in return 
+X=conditon for for loop
+Z=condition of if condition
+whatever the input is in (list, tuple , arrays) it always return ans in list
