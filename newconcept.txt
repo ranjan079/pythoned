@@ -17,3 +17,8 @@ R=what ans we want in return
 X=conditon for for loop
 Z=condition of if condition
 whatever the input is in (list, tuple , arrays) it always return ans in list
+7) set-> remove duplicate,doesnot maintain order(ascending)
+8) sorted-> doesnot remove duplicate,maintain order(ascending by default)
+9)if input->5 2 8 1
+.split()  -> convert given input into individual species (strings) =("5","2","8","1")
+map(int,....) -> convert every string to integer
