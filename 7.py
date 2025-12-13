@@ -41,7 +41,5 @@ def avg(a):
         return (sum/j)
     except ZeroDivisionError:
         print("Enter valid number.")
-    except TypeError:
-        print("Enter correct value:")
 print("Average is :",avg(a))
 
