@@ -22,3 +22,11 @@ whatever the input is in (list, tuple , arrays) it always return ans in list
 9)if input->5 2 8 1
 .split()  -> convert given input into individual species (strings) =("5","2","8","1")
 map(int,....) -> convert every string to integer
+10) try and except
+try:if error occour then except return
+except:if error occoured the program continue instead of stopping
+it can run any valid python code
+11) type of error:
+ValueError= worng value e.g int("abcd")
+TypeError=wrond data type
+ZeroDivisionError=error due to divion by zero
